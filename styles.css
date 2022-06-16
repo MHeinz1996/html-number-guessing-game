@@ -5,7 +5,22 @@ body {
   text-align: center;
 }
 
+.game {
+  display: flex;
+  height: 25vh;
+  align-items: center;
+  justify-content: center;
+}
+
 h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5vh;
   font-weight: 400
+}
+
+#result {
+  font-size: 2rem;
+  margin-top: 0;
 }
 
